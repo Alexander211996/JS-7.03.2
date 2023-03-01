@@ -1,4 +1,5 @@
 const { test, expect } = require("@playwright/test");
+const { email, password } = require("../user");
 // const { chromium } = require("@playwright/test");
 
 test("valid login", async ({ page }) => {
